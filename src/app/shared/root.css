@@ -1,0 +1,77 @@
+:root {
+  --neutral-1: #262626;
+  --neutral-2: #404040;
+  --neutral-3: #525252;
+  --neutral-4: #a1a1aa;
+
+  --primary-color: #390578;
+  --primary-color-light: #2f0365;
+  --primary-color-dark: #9b03ac;
+  --primary-color-text: rgba(181, 181, 181, 0.94);
+  --secondary-color: #91057a;
+  --secondary-color-light: #fa5788;
+  --secondary-color-dark: #8c0032;
+  --secondary-color-text: #ffffff;
+  --disabled-color: #666666;
+  --error-color: #b10021;
+  --background-color: #232323;
+  --font-family: "Teko", sans-serif;
+  --font-size: 16px;
+  --font-weight: 400;
+  --font-size-small: 15px;
+  --font-size-medium: 17px;
+  --font-size-large: 19px;
+  --discord-color: #7289da;
+}
+
+button {
+  padding: 0;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: "Teko-Bold";
+  src: url("./../../../public/fonts/Teko/static/Teko-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Teko-Light";
+  src: url("./../../../public/fonts/Teko/static/Teko-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Teko-Medium";
+  src: url("./../../../public/fonts/Teko/static/Teko-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Teko-Regular";
+  src: url("./../../../public/fonts/Teko/static/Teko-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Teko-Light";
+  src: url("./../../../public/fonts/Teko/static/Teko-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ @font-face {
+   font-family: 'Righteous';
+   src: url("./../../../public/fonts/Righteous/Righteous-Regular.ttf") format("truetype");
+   font-weight: normal;
+   font-style: normal;
+ }
+
