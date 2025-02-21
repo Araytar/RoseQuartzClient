@@ -1,8 +1,9 @@
 {
-  "name": "lwgg",
+  "name": "rosequartzclient",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@mantine/carousel": "^7.17.0",
     "@mantine/core": "^7.17.0",
     "@mantine/hooks": "^7.17.0",
     "@reduxjs/toolkit": "^2.2.7",

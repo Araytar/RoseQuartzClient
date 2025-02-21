@@ -1,4 +1,4 @@
-import {riotKey} from "../../../secrets";
+import {riotKey} from "../../secrets";
 
 export const REQUIRED_FEATURES = [
   "gep_internal",

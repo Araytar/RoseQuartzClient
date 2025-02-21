@@ -1,4 +1,4 @@
-secrets.ts
+src/secrets.ts
 .idea
 build
 lw.gg.code-workspace
