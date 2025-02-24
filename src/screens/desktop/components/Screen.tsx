@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { DesktopHeader } from "./DesktopHeader";
+import { WidgetContainer } from "./widgets/WidgetContainer"
 import "./styles/Screen.css";
+import '@mantine/core/styles.css';
+import "/node_modules/react-grid-layout/css/styles.css";
+import "/node_modules/react-resizable/css/styles.css";
 
 //avoid the use of static text, use i18n instead, each language has its own text, and the text is stored in the
 //locales folder in the project root
@@ -10,11 +14,7 @@ const Screen = () => {
   return (
       <div className='desktop'>
         <DesktopHeader />
-          <div className={"desktop__container"}>
-                <div className={"match_history_container"}>
-
-                </div>
-          </div>
+          <WidgetContainer />
       </div>
 
   );

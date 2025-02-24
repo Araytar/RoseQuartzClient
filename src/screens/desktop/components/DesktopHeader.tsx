@@ -9,8 +9,7 @@ import "./../../../app/shared/root.css"
 const { DESKTOP, BACKGROUND } = WINDOW_NAMES;
 
 const handleDiscordClick = () => {
-  if (isDev) return window.open("https://discord.gg/");
-  overwolf.utils.openUrlInDefaultBrowser("https://discord.gg/");
+  overwolf.utils.openUrlInDefaultBrowser("https://discord.gg/afterlifeesports");
 };
 
 export const DesktopHeader = () => {

@@ -1,0 +1,18 @@
+.widget-container {
+
+}
+
+.widget {
+    background: linear-gradient(151deg, rgba(25, 25, 25, 0.96) 0%, rgb(12, 12, 12) 100%);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1e1e1e;
+    box-shadow: 2px 2px 10px #191919;
+}
+
+.widget-action-icon {
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    z-index: 100;
+}
